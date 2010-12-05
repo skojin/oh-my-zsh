@@ -25,4 +25,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+
+##### END OF OH-MY-ZSH #####
 # Customize to your needs...
