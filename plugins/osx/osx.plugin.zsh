@@ -55,3 +55,8 @@ end do_submenu
 do_submenu("iTerm", "Shell", "New Tab")
 EOF
 }
+
+# open `man` in Preview.app
+pman () {
+  man -t "${1}" | open -f -a /Applications/Preview.app
+}
